@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Stack+Sans+Headline:wght@200..700&display=swap');
+
+:root {
+    --cinza-escuro: #2b2d42ff;
+    --cinza-claro: #8d99aeff;
+    --branco: #edf2f4ff;
+    --vermelho: #ef233cff;
+    --preto:#000000;
+    --titulo:"Stack Sans Headline", sans-serif;
+    --texto:"EB Garamond", serif;
+}
+
+body{
+    background-color: var(--cinza-claro);
+    font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    color: var(--preto)
+}
+header{
+    background-color: var(--cinza-escuro);
+    padding: 20px;
+    text-align: center;
+    color: var(--branco);
+    font-family: var(--titulo);
+}
